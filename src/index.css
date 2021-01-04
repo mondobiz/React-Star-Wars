@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.starship-flex {
+  margin-top: 50px;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.starship {
+  width: 23%;
+  height: 100px;
+  background-color: #282c34;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
